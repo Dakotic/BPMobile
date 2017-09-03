@@ -1,0 +1,74 @@
+*{
+	font-family: 'Catamaran', sans-serif;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+p{
+	font-family: 'Rubik', sans-serif;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	line-height: 1.2;
+}
+h2{
+	color: #ffa000;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 1.2;
+		font-family: 'Rubik', sans-serif;
+}
+.mobile-pic img{
+	 width: 40%;
+}
+#row
+{
+	max-width: 991px;
+	margin: 0 auto;
+	width: 100%;
+	background: url('../img/huge-background.jpg') no-repeat 0 0;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+.mobile-pic
+{
+	width: 50%;
+	float: left;
+}
+.mobile-logo
+{
+	width: 30%;
+	margin-right: 4%;
+	float: left;
+}
+.wrap-text
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 4%;
+}
+.message-body
+{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1;
+}
+@media (max-width: 767px) {
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 15px;
+	}
+}
